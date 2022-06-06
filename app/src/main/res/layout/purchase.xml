@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bottomline"
+        android:gravity="center"
+        android:text="구매하기"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconback" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_product"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:layout_margin="10dp"
+                tools:srcCompat="@drawable/soap" />
+
+            <TextView
+                android:id="@+id/tv_pdname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="살림연구소 친환경 천연 설거지비누 3종"
+                android:layout_margin="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="4500마일리지" />
+
+            <TextView
+                android:id="@+id/tv_explain"
+                android:layout_width="match_parent"
+                android:layout_height="282dp"
+                android:text="살림연구소 친환경 천연 설거지비누 3종 설명" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="670dp"
+        android:layout_height="78dp">
+
+        <Button
+            android:id="@+id/btn_purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:text="결제하기" />
+    </LinearLayout>
+</FrameLayout>
