@@ -11,7 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity{
-    com.example.mileage.Home fragment_home;
+    Home fragment_home;
     RecycleInfo fragment_recycle_info;
     comunity fragment_comunity;
     MileageMain fragment_milage_main;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fragment_home = new com.example.mileage.Home();
+        fragment_home = new Home();
         fragment_recycle_info = new RecycleInfo();
         fragment_comunity = new comunity();
         fragment_milage_main = new MileageMain();

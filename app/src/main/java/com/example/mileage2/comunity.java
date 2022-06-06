@@ -7,11 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link comunity#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class comunity extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

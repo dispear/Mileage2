@@ -23,14 +23,14 @@ public class Home extends Fragment {
         btn_notice = (Button) view.findViewById(R.id.btn_notice);
         btn_challenge = (Button) view.findViewById(R.id.btn_challenge);
 
-        btn_login.setOnClickListener(new View.OnClickListener() {
+        /* btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), com.example.mileage.Login.class);
+                Intent intent = new Intent(getActivity(), Login.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
             }
-        });
+        }); */
 
         btn_notice.setOnClickListener(new View.OnClickListener() {
             @Override
